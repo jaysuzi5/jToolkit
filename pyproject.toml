@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jtoolkit"
+name = "j-utilities-toolkit"
 version = "0.0.1"
 description = "A collection of reusable utilities including logging, configuration, timing, debugging, and more."
 readme = "README.md"
