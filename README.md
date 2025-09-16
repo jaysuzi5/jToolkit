@@ -50,9 +50,11 @@ logger.transaction_event(EventType.TRANSACTION_END, transaction=transaction, pay
 
 ## 📊 Version History
 
-| Version | Date       | Changes                                                 |
-|---------|------------|---------------------------------------------------------|
-| 0.0.1   | 2025-09-14 | Initial release just to define structure and register.  |
+| Version | Date       | Changes                                                |
+|---------|------------|--------------------------------------------------------|
+| 0.0.1   | 2025-09-14 | Initial release just to define structure and register. |
+| 0.0.2   | 2025-09-16 | Adding jSplunk and jDateTime.                          |
+
 
 ---
 

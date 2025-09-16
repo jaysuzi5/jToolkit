@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "j-utilities-toolkit"
-version = "0.0.1"
+version = "0.0.2"
 description = "A collection of reusable utilities including logging, configuration, timing, debugging, and more."
 readme = "README.md"
 license = { text = "MIT" }
@@ -18,5 +18,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/jaysuzi5/jToolkit/jtoolkit"
+Homepage = "https://github.com/jaysuzi5/jToolkit"
 Issues = "https://github.com/jaysuzi5/jToolkit/issues"
