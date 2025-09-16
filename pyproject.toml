@@ -12,7 +12,9 @@ authors = [
   { name="Jay Curtis", email="jaysuzi5@gmail.com" }
 ]
 dependencies = [
-   "python-dotenv>=1.1.1"
+    "python-dotenv>=1.1.1",
+    "pytz>=2025.2",
+    "splunk-sdk>=2.1.1",
 ]
 
 [project.urls]

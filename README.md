@@ -10,7 +10,8 @@ The goal of **jtoolkit** is to provide a consistent set of building blocks — l
 
 - **jLogging** – Simplified logging setup with sensible defaults.
 - **jConfig** – Load configuration from environment variables, JSON, or YAML.
-
+- **jSplunk** – A very basic wrapper around splunk-sdk that supports querying Splunk.
+- **jDateTime** – A few basic date/time functions
 ---
 
 ## 📦 Installation
@@ -71,4 +72,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests with
 
 ## 📄 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](https://github.com/jaysuzi5/jToolkit/blob/main/LICENSE) file for details.
