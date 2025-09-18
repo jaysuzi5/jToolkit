@@ -166,7 +166,7 @@ class Logger:
         if "source_component" in message_data:
             log_message["source_component"] = message_data["source_component"]
         if "source_transaction_id" in message_data:
-            log_message["source_component"] = message_data["source_transaction_id"]
+            log_message["source_transaction_id"] = message_data["source_transaction_id"]
         if data:
             log_message["data"] = data
         else:
