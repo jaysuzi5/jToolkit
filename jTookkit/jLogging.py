@@ -180,7 +180,7 @@ class Logger:
             caller_frame = inspect.stack()[1].frame
             self_obj = caller_frame.f_locals.get('self', None)
             if self_obj:
-                log_message["method"] = type(self_obj).__name__ + caller_frame.f_code.co_name
+                log_message["method"] = type(self_obj).__name__ + "." + caller_frame.f_code.co_name
             else:
                 log_message["method"] = caller_frame.f_code.co_name
         except: # Don't want the logging to throw an exception
